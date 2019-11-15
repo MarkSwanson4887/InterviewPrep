@@ -16,7 +16,7 @@ class isSameTree{
                 return false;
             }
             else{
-                return (p.val == q.val) && isSameTreeS(p.left,q.left) && isSameTree(p.right,q.right);
+                return (p.val == q.val) && isSameTreeS(p.left,q.left) && isSameTreeS(p.right,q.right);
             }
         }
         public static void main(String[] args){
